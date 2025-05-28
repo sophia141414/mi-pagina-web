@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Misión</title>
+    <style>
+        body {
+            background-color: brown;
+            font-family: Arial, sans-serif;
+            color: white;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            display: flex;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .left-column {
+            flex: 1;
+            padding-right: 20px;
+            text-align: center;
+}.right-column {
+            flex: 1;
+            display: grid;
+            gap: 20px;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            justify-items: center;
+        }
+
+        h1 {
+            font-size: 2.5em;
+            margin-top: 20px;
+            color: white;
+            text-align: center;
+            width: 100%;
+        }
+
+        .mission-text {
+            font-size: 1.2em;
+            line-height: 1.6;
+            margin: 20px 10%;
+            text-align: justify;
+        }
+
+        /* Estilos mejorados para las imágenes */
+        .mission-img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin-bottom: 10px;
+            max-width: 300px;
+        }
+
+        /* Estilos para los enlaces de las imágenes */
+        .img-link {
+            color: white;
+            text-decoration: none;
+            font-size: 1.1em;
+            background-color: rgba(255, 255, 255, 0.1);
+            padding: 10px;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        .img-link:hover {
+            background-color: rgba(255, 255, 255, 0.2);
+        }
+
+        .return-link {
+            display: block;
+            margin-top: 40px;
+            font-size: 1.2em;
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            background-color: red;
+            border-radius: 5px;
+            width: max-content;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .return-link:hover {
+            background-color: #FFCAA0;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+<div class="left-column">
+<img src="cochi.jpg" alt="Birria" style="width: 300px; height: auto;">
+<h1><i>Nuevo menu</i></h1>
+<div class="mission-text">
+                
+<p><i>Este menu esta lleno de expewriencias y sabores por eso decidimos añadir estos nuevos productos con un alta calidad de birria y productos nuevos con los que quedaras encantado para chuparse los dedos "enbirriame la vida".</i></p>
+</div>
+        </div>
+
+        <div class="right-column">
+            <div class="image-container">
+                <img src="taquitos.jpg" alt="Imagen 1" class="mission-img">
+                <a href="#" class="img-link"><b>Tacos de mixote</b></a><p>Los tacos de mixote estan elaborados por una tortilla de harina hecha a mano de un tamaño de r5cm y la carne extraida de los nocoros y nacaras de italia</p>
+            </div>
+            
+            <div class="image-container">
+                <img src="consome.jpg" alt="Imagen 2" class="mission-img">
+                <a href="#" class="img-link"><b>Consome</b></a><p> Compuesto por una gran cantidad de carne y especies qwue lleva el consome, lo que cambia es la maravillosa, exelente, grandiosa, perfecta calidad. </p>
+            </div>
+            
+            <div class="image-container">
+                <img src="flauton.jpg" alt="Imagen 3" class="mission-img">
+                <a href="#" class="img-link"><b>Flautas de birria</b></a><p> Estas tienen un gran tamaño de 27cm, rellenas de una deliciosa y jugosasasa carne y arriba tiene medio bote de crema alpura y quesosadon te dara en la garganta extremo.</p>
+            </div>
+        </div>
+    </div>
+
+    <a href="sophia\Sophia.html" class="return-link">volver</a>
+</body>
+</html>
